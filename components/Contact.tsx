@@ -23,5 +23,15 @@ export default function Contact(){
         </a>
 
     </div>
+    <div className="flex items-center justify-center mt-4">
+        <img src={"/icons/cv.png"} alt="Currículo" className="w-10 h-10 mr-3" />
+        <a
+            href="/curriculo.pdf"
+            download="Curriculo_Guilherme_Teodoro.pdf"
+            className="px-4 py-2 bg-[#0A66C2] text-white font-semibold rounded-md hover:bg-[#004182]"
+        >
+            Cv Download
+        </a>
+    </div>
     </section>);
 }

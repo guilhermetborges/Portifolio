@@ -17,10 +17,10 @@ export default {
     title: "Education",
     items: [
       {
-        title: "University X",
-        place: "Bachelor in Computer Science",
-        period: "2020 – 2024",
-        bullets: ["Focus on Artificial Intelligence", "Final project on NLP"],
+        title: "Federal Institute of Goias",
+        place: "Bachelor in Information Systems",
+        period: "2024 – 2028",
+        bullets: ["", ""],
       },
     ],
   },
@@ -52,16 +52,16 @@ export default {
     subtitle: "My recent work",
     items: [
       {
-        title: "Minion Translator",
-        desc: "Fun translator for the Minion language",
-        github: "#",
+        title: "NewZone",
+        desc: "website for imigration in Django with Django templates and tailwindcss and postgreSQL",
+        github: "https://github.com/guilhermetborges/newZone",
         demo: "#",
       },
       {
-        title: "Emoji Interpreter",
-        desc: "App that explains emoji meanings",
+        title: "from-tiktok ",
+        desc: "web App for ecommerce in next.js with react and supabase",
         github: "#",
-        demo: "#",
+        demo: "https://from-tiktok.pangeia96.com.br/",
       },
     ],
   },
