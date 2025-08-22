@@ -28,21 +28,26 @@ export default {
     title: "Experiência",
     items: [
       {
-        title: "Software Engineer",
-        company: "Empresa Y",
-        period: "2023 – 2024",
+        title: "Desenvolvedor Full Stack Junior",
+        company: "Pangeia 96",
+        period: "jun/2025 – o momento",
         bullets: [
-          "Desenvolvimento de APIs REST em Node.js",
-          "Integração de microsserviços com Docker",
+          "Desenvolvimento de apps web e nativos e-commerce com next.js , react e typescript",
+          "Desenvolvimento de plataforma de abertura de chamados interna com Python/Django e PostgreSQL",
+          "desenvolvimento de robos de automação com Python e Selenium(webScraping)",
+          "criação de banco de dados interno com PostgreSQL e integração com python",
+          "experiencia com Apis REST e GraphQL (API da Meta, Facebook, Nuvemshop etc..), integracao com Supabase e PostgreSQL",
+          "integração com ERPs (Linx Millenium e Tiny Olist)",
+          "experiencia com Docker , Kubernetes e deploy com Vercel",
         ],
       },
       {
-        title: "Estagiário",
-        company: "Empresa Z",
-        period: "2022 – 2023",
+        title: "Estagio em analise de sistemas",
+        company: "Centi",
+        period: "jan/2025 – jun/2025",
         bullets: [
-          "Auxílio em migração de sistema legado",
-          "Testes automatizados com Jest",
+          "Levantamento e analise de requisitos",
+          "Suporte tecnico para clientes",
         ],
       },
     ],
@@ -52,9 +57,9 @@ export default {
     subtitle: "Meus trabalhos recentes",
     items: [
       {
-        title: "Tradutor Minions",
-        desc: "Tradutor divertido para a língua dos Minions",
-        github: "#",
+        title: "NewZone",
+        desc: "website para imigracao em Django com Django templates , tailwindcss e postgreSQL",
+        github: "https://github.com/guilhermetborges/newZone",
         demo: "#",
       },
       {
