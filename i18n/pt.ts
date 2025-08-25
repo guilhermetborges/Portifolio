@@ -20,7 +20,7 @@ export default {
         title: "Instituto Federal de Goiás",
         place: "Bacharelado em Sistemas de Informação",
         period: "2024 – 2028",
-        bullets: ["Ênfase em Inteligência Artificial", "Projeto final sobre NLP"],
+         //bullets: ["Ênfase em Inteligência Artificial", "Projeto final sobre NLP"],
       },
     ],
   },
@@ -62,12 +62,7 @@ export default {
         github: "https://github.com/guilhermetborges/newZone",
         demo: "#",
       },
-      {
-        title: "Emoji Interpreter",
-        desc: "App que mostra o significado de emojis",
-        github: "#",
-        demo: "#",
-      },
+     
     ],
   },
   contact: { title: "Contato", subtitle: "Entre em contato comigo" },
