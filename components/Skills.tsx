@@ -39,6 +39,7 @@ const SKILLS: Skill[] = [
   { name: "Pandas", icon: "/icons/pandas.svg", category: "Others" },
   { name: "Matplotlib", icon: "/icons/matplotlib.svg", category: "Others" },
   { name: "Ngrok", icon: "/icons/ngrok.svg", category: "Others" },
+  { name: "Supabase", icon: "/icons/supabase.svg", category: "Others" },
 ];
 
 const CATEGORIES: Skill["category"][] = [
