@@ -12,7 +12,7 @@ export default {
     subtitle: "Software developer",
     summary: "Full Stack developer and graduating in system information",
   },
-  skills: { title: "Skills", subtitle: "Technologies I use" },
+  skills: { title: "Skills", subtitle: "" },
   education: {
     title: "Education",
     items: [
@@ -29,20 +29,28 @@ export default {
     items: [
       {
         title: "Software Engineer",
-        company: "Company Y",
-        period: "2023 – 2024",
-        bullets: [
-          "Developed REST APIs in Node.js",
-          "Integrated microservices with Docker",
+        company: "Pangeia(",
+        period: "July 2025 - now",
+        bullets: [          
+          "Development of web and native e-commerce apps with Next.js, React, and TypeScript",
+          "Development of an internal ticketing platform with Python/Django and PostgreSQL/Supabase",
+          "Development of automation bots with Python and Selenium (web scraping)",
+          "Creation of an internal database with automation via webhooks",
+          "Experience with REST and GraphQL APIs",
+          "Experience with external APIs (such as Mercado Pago, Mercado Libre, Meta, Facebook, Nuvemshop, RD Station, etc.)",
+          "Integration with ERPs (Linx Millenium and Tiny Olist)",
+          "Experience with Docker, Kubernetes, and deployment with Vercel",
+
         ],
       },
       {
-        title: "Intern",
-        company: "Company Z",
-        period: "2022 – 2023",
+        title: "Intern in Systems Analysis",
+        company: "Centi",
+        period: "january 2025 - June 2025",
         bullets: [
-          "Assisted in migration from legacy systems",
-          "Implemented automated tests with Jest",
+          "Requirements gathering and analysis",
+          "Technical support",
+          "Participation in agile routines",
         ],
       },
     ],
@@ -53,14 +61,14 @@ export default {
     items: [
       {
         title: "NewZone",
-        desc: "website for imigration in Django with Django templates and tailwindcss and postgreSQL",
+        desc: "website for imigration in Django with Django templates , tailwindcss and postgreSQL",
         github: "https://github.com/guilhermetborges/newZone",
-        demo: "#",
+        demo: "",
       },
       {
         title: "from-tiktok ",
-        desc: "web App for ecommerce in next.js with react and supabase",
-        github: "#",
+        desc: "web App for ecommerce in next.js with react and supabase * Mobile first",
+        github: "",
         demo: "https://from-tiktok.pangeia96.com.br/",
       },
     ],

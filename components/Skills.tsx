@@ -30,16 +30,22 @@ const SKILLS: Skill[] = [
   { name: "Git", icon: "/icons/git.svg", category: "Software" },
   { name: "GitHub", icon: "/icons/github.svg", category: "Software" },
   { name: "Vercel", icon: "/icons/vercel.svg", category: "Software" },
+  //{ name: "Linux", icon: "/icons/linux.svg", category: "Software" },
 
   { name: "MySQL", icon: "/icons/mysql.svg", category: "Database" },
   { name: "PostgreSQL", icon: "/icons/postgresql.svg", category: "Database" },
+  { name: "Supabase", icon: "/icons/supabase.svg", category: "Database" },
+  { name: "Prisma", icon: "/icons/prisma.svg", category: "Database" },
 
   { name: "Insomnia", icon: "/icons/insomnia.svg", category: "Others" },
+  { name: "Postman", icon: "/icons/postman.svg", category: "Others" },
   { name: "Selenium", icon: "/icons/selenium.svg", category: "Others" },
-  { name: "Pandas", icon: "/icons/pandas.svg", category: "Others" },
-  { name: "Matplotlib", icon: "/icons/matplotlib.svg", category: "Others" },
   { name: "Ngrok", icon: "/icons/ngrok.svg", category: "Others" },
-  { name: "Supabase", icon: "/icons/supabase.svg", category: "Others" },
+
+  { name: "Matplotlib", icon: "/icons/matplotlib.svg", category: "Data Science" },
+  { name: "Pandas", icon: "/icons/pandas.svg", category: "Data Science" },
+
+
 ];
 
 const CATEGORIES: Skill["category"][] = [
@@ -48,6 +54,7 @@ const CATEGORIES: Skill["category"][] = [
   "DevOps",
   "Software",
   "Database",
+  "Data Science",
   "Others",
 ];
 
