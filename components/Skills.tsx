@@ -15,22 +15,25 @@ const SKILLS: Skill[] = [
   { name: "Django", icon: "/icons/django.svg", category: "Backend" },
   { name: "DRF", icon: "/icons/DRF.svg", category: "Backend" },
   { name: "FastAPI", icon: "/icons/fastapi.svg", category: "Backend" },
+  {name: "C#", icon: "/icons/cs.svg", category: "Backend"},
+  { name: ".NET", icon: "/icons/NET.png", category: "Backend" },
   { name: "TypeScript", icon: "/icons/typescript.svg", category: "Backend" },
-  { name: "Next.js", icon: "/icons/next.svg", category: "Backend" },
+  { name: "Next.js", icon: "/icons/next.png", category: "Backend" },
 
   { name: "React", icon: "/icons/react.svg", category: "Frontend" },
   { name: "HTML", icon: "/icons/html.svg", category: "Frontend" },
   { name: "TypeScript", icon: "/icons/typescript.svg", category: "Frontend" },
   { name: "Tailwind", icon: "/icons/tailwind.svg", category: "Frontend" },
-  { name: "Next.js", icon: "/icons/next.svg", category: "Frontend" },
+  { name: "Next.js", icon: "/icons/next.png", category: "Frontend" },
 
   { name: "Docker", icon: "/icons/docker.svg", category: "DevOps" },
   { name: "Kubernetes", icon: "/icons/kubernetes.svg", category: "DevOps" },
+  { name: "Github Actions CI/CD", icon: "/icons/githubact.png", category: "DevOps" },
 
   { name: "Git", icon: "/icons/git.svg", category: "Software" },
   { name: "GitHub", icon: "/icons/github.svg", category: "Software" },
   { name: "Vercel", icon: "/icons/vercel.svg", category: "Software" },
-  //{ name: "Linux", icon: "/icons/linux.svg", category: "Software" },
+  { name: "Linux", icon: "/icons/linux.svg", category: "Software" },
 
   { name: "MySQL", icon: "/icons/mysql.svg", category: "Database" },
   { name: "PostgreSQL", icon: "/icons/postgresql.svg", category: "Database" },
@@ -40,10 +43,12 @@ const SKILLS: Skill[] = [
   { name: "Insomnia", icon: "/icons/insomnia.svg", category: "Others" },
   { name: "Postman", icon: "/icons/postman.svg", category: "Others" },
   { name: "Selenium", icon: "/icons/selenium.svg", category: "Others" },
-  { name: "Ngrok", icon: "/icons/ngrok.svg", category: "Others" },
+  //{ name: "Ngrok", icon: "/icons/ngrok.svg", category: "Others" },
 
   { name: "Matplotlib", icon: "/icons/matplotlib.svg", category: "Data Science" },
   { name: "Pandas", icon: "/icons/pandas.svg", category: "Data Science" },
+  { name: "Steamlit", icon: "/icons/steamlit.png", category: "Data Science" },
+  
 
 
 ];

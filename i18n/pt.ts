@@ -79,6 +79,13 @@ export default {
         demo: "https://rastreio.pangeia96.com.br/",
         image: "/icons/rastreamento.png",
       },
+      {
+        title: "Sistema Pangeia 96",
+        desc: "Plataforma interna com Python/Django e PostgreSQL/Supabase \nPost linkedin",
+        github: "",
+        demo: "https://www.linkedin.com/feed/update/urn:li:activity:7378435890475409409/",
+        image: "/icons/pangeia.png",
+      },
      
     ],
   },
