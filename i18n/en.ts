@@ -9,8 +9,8 @@ export default {
   },
   hero: {
     title: "Hi, I'm",
-    subtitle: "Software developer",
-    summary: "Full Stack developer and graduating in system information",
+    subtitle: "Software Engineer | Data Engineer",
+    summary: "Backend and Data engineer and graduating in system information",
   },
   skills: { title: "Skills", subtitle: "" },
   education: {

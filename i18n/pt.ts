@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export default {
   navbar: {
     about: "Sobre",
@@ -9,8 +11,8 @@ export default {
   },
   hero: {
     title: "Oi, eu sou",
-    subtitle: "desenvolvedor de Software",
-    summary: "desenvolvedor Full Stack e graduando em sistemas de informação",
+    subtitle: "Software Engineer | Data Engineer",
+    summary: "desenvolvedor backend/Engenheiro de dados e graduando em sistemas de informação",
   },
   skills: { title: "skills", subtitle: "" },
   education: {
@@ -20,7 +22,7 @@ export default {
         title: "Instituto Federal de Goiás",
         place: "Bacharelado em Sistemas de Informação",
         period: "2024 – 2028",
-         //bullets: ["Ênfase em Inteligência Artificial", "Projeto final sobre NLP"],
+         bullets: ["Ênfase em algoritmos, estruturas de dados, POO, redes e Java.", "Participação ativa em hackathons, eventos e palestras.",],
       },
     ],
   },
@@ -43,7 +45,7 @@ export default {
         ],
       },
       {
-        title: "Estagio em analise de sistemas",
+        title: "Analista de Sistemas - Estagio",
         company: "Centi",
         period: "jan/2025 – jun/2025",
         bullets: [
@@ -81,11 +83,18 @@ export default {
       },
       {
         title: "Sistema Pangeia 96",
-        desc: "Plataforma interna com Python/Django e PostgreSQL/Supabase \nPost linkedin",
+        desc: "Plataforma interna com Python/Django e PostgreSQL/Supabase ",
         github: "",
         demo: "https://www.linkedin.com/feed/update/urn:li:activity:7378435890475409409/",
         image: "/icons/pangeia.png",
       },
+      {
+        title:"Monitoramento de desempenho de marca",
+        desc: "Projeto com foco em monitorar desempenho de influencers e visibilidade da marca nas redes sociais, fiz desde a parte de engenharia de dados criação e automação de ETL via databricks e analise de sentimentos e criação do dashboard via streamlit com Python e pandas.",
+        github: "",
+        demo: "https://pangeia96.streamlit.app/",
+        image: "/icons/dashsocial.png",
+      }
      
     ],
   },

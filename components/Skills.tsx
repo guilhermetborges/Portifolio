@@ -7,7 +7,7 @@ import SectionTitle from "./SectionTitle";
 type Skill = {
   name: string;
   icon: string; // caminho para ícone (coloque em /public/icons/)
-  category: "Backend" | "Frontend" | "DevOps" | "Software" | "Database" | "Data Science" | "Others";
+  category: "Backend" | "Data Engineering" | "Frontend" | "DevOps" | "Software" | "Database" | "Data Science" | "Others";
 };
 
 const SKILLS: Skill[] = [
@@ -15,10 +15,24 @@ const SKILLS: Skill[] = [
   { name: "Django", icon: "/icons/django.svg", category: "Backend" },
   { name: "DRF", icon: "/icons/DRF.svg", category: "Backend" },
   { name: "FastAPI", icon: "/icons/fastapi.svg", category: "Backend" },
+  { name: "Flask", icon: "/icons/flask.png", category: "Backend" },
   {name: "C#", icon: "/icons/cs.svg", category: "Backend"},
   { name: ".NET", icon: "/icons/NET.png", category: "Backend" },
   { name: "TypeScript", icon: "/icons/typescript.svg", category: "Backend" },
   { name: "Next.js", icon: "/icons/next.png", category: "Backend" },
+  
+
+
+  { name: "Python", icon: "/icons/python.svg", category: "Data Engineering" },
+  { name: "Databricks", icon: "/icons/databricks.svg", category: "Data Engineering" },
+  { name: "Apache Spark", icon: "/icons/spark.svg", category: "Data Engineering" },
+  { name: "SQL", icon: "/icons/sql.svg", category: "Data Engineering" },
+  { name: "PostgreSQL", icon: "/icons/postgresql.svg", category: "Data Engineering" },
+  { name: "Selenium", icon: "/icons/selenium.svg", category: "Data Engineering" },
+  { name: "ETL", icon: "/icons/etl.png", category: "Data Engineering" },
+  { name: "Pandas", icon: "/icons/pandas.svg", category: "Data Engineering" },
+
+
 
   { name: "React", icon: "/icons/react.svg", category: "Frontend" },
   { name: "HTML", icon: "/icons/html.svg", category: "Frontend" },
@@ -44,10 +58,8 @@ const SKILLS: Skill[] = [
   { name: "Postman", icon: "/icons/postman.svg", category: "Others" },
   { name: "Selenium", icon: "/icons/selenium.svg", category: "Others" },
   //{ name: "Ngrok", icon: "/icons/ngrok.svg", category: "Others" },
-
-  { name: "Matplotlib", icon: "/icons/matplotlib.svg", category: "Data Science" },
-  { name: "Pandas", icon: "/icons/pandas.svg", category: "Data Science" },
-  { name: "Steamlit", icon: "/icons/steamlit.png", category: "Data Science" },
+  { name: "Matplotlib", icon: "/icons/matplotlib.svg", category: "Others" },
+  { name: "Steamlit", icon: "/icons/steamlit.png", category: "Others" },
   
 
 
@@ -55,11 +67,11 @@ const SKILLS: Skill[] = [
 
 const CATEGORIES: Skill["category"][] = [
   "Backend",
+  "Data Engineering",
   "Frontend",
   "DevOps",
   "Software",
   "Database",
-  "Data Science",
   "Others",
 ];
 

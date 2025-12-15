@@ -32,6 +32,7 @@ export default function Education() {
                 ))}
               </ul>
             )}
+            <br />
           </div>
         ))}
       </div>
