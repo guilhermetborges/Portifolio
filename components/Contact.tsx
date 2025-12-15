@@ -26,7 +26,7 @@ export default function Contact(){
     <div className="flex items-center justify-center mt-4">
         <img src={"/icons/cv.png"} alt="Currículo" className="w-10 h-10 mr-3" />
         <a
-            href="/curriculo.pdf"
+            href="/icons/Curriculo_Guilherme_Teodoro.pdf"
             download="Curriculo_Guilherme_Teodoro.pdf"
             className="px-4 py-2 bg-[#0A66C2] text-white font-semibold rounded-md hover:bg-[#004182]"
         >
