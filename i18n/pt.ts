@@ -1,5 +1,3 @@
-import { title } from "process";
-
 export default {
   navbar: {
     about: "Sobre",
@@ -11,18 +9,18 @@ export default {
   },
   hero: {
     title: "Oi, eu sou",
-    subtitle: "Software Engineer | Data Engineer",
-    summary: "desenvolvedor backend/Engenheiro de dados e graduando em sistemas de informação",
+    subtitle: "Desenvolvedor Backend | Crawler Engineer",
+    summary: "Atualmente atuo como desenvolvedor backend e crawler, com experiência forte em engenharia de dados e automação. Trabalho com crawlers de alta performance, engenharia reversa, integrações e pipelines escaláveis, sempre com foco em performance, confiabilidade e arquitetura limpa.",
   },
-  skills: { title: "skills", subtitle: "" },
+  skills: { title: "Skills", subtitle: "" },
   education: {
     title: "Educação",
     items: [
       {
         title: "Instituto Federal de Goiás",
         place: "Bacharelado em Sistemas de Informação",
-        period: "2024 – 2028",
-         bullets: ["Ênfase em algoritmos, estruturas de dados, POO, redes e Java.", "Participação ativa em hackathons, eventos e palestras.",],
+        period: "2024 – 2027",
+         bullets: ["Ênfase em algoritmos, estruturas de dados, POO, redes e Java.", "Participação ativa em hackathons, eventos e palestras.", "Participação em projeto de pesquisa de inteligência artificial para indústria pecuarista com modelagem de dados."],
       },
     ],
   },
@@ -30,28 +28,55 @@ export default {
     title: "Experiência",
     items: [
       {
-        title: "Desenvolvedor Full Stack ",
-        company: "Pangeia 96",
-        period: "jun/2025 – o momento",
+        title: "Desenvolvedor Backend / Crawler",
+        company: "Data Lawyer",
+        period: "mar/2026 – o momento",
         bullets: [
-          "Desenvolvimento de apps web e nativos e-commerce com next.js , react e typescript",
-          "Desenvolvimento de plataforma de abertura de chamados interna com Python/Django e PostgreSQL/Supabase",
-          "desenvolvimento de robos de automação com Python e Selenium(webScraping)",
-          "criação de banco de dados interno com automação via webhooks",
-          "experiencia com Apis REST e GraphQL ",
-          "experiencia com uso de APIs externas (como Mercado Pago, Mercado Livre,  Meta, Facebook, Nuvemshop, RD Station etc..)",
-          "integração com ERPs (Linx Millenium e Tiny Olist)",
-          "experiencia com Docker , Kubernetes e deploy com Vercel",
+          "Atuação com desenvolvimento backend usando Python, Airflow, C#, AWS e Golang",
+          "Construção e manutenção de crawlers de alta performance com foco em escala, estabilidade e confiabilidade",
+          "Trabalho com engenharia reversa para extração e interpretação de dados em diferentes fontes",
+          "Desenvolvimento de robôs de automação de alta performance para coleta e processamento de dados",
         ],
       },
       {
-        title: "Analista de Sistemas - Estagio",
+        title: "Atuação em Engenharia de Dados e Desenvolvimento Full Stack",
+        company: "Pangeia 96",
+        period: "jul/2025 – mar/2026",
+        roles: [
+          {
+            title: "Engenheiro de Dados",
+            period: "nov/2025 – mar/2026",
+            bullets: [
+              "Criação de pipelines de processamento e transformação com Databricks, PySpark e Python, estruturando dados em camadas (Bronze → Silver → Gold)",
+              "Desenvolvimento de pipeline ETL completo para integrar a API da Nuvemshop ao Data Warehouse, otimizando estrutura analítica em PostgreSQL",
+              "Estruturação da arquitetura de dados com PostgreSQL e pipelines de atualização via webhooks",
+              "Automatização de processos operacionais com robôs de webscraping usando Python e Selenium",
+              "Integração do ecossistema de dados conectando ERPs (Linx Millennium, Tiny, Olist), e-commerce (Nuvemshop) e APIs externas (Mercado Pago, Meta, RD Station)",
+            ],
+          },
+          {
+            title: "Desenvolvedor Full Stack",
+            period: "jul/2025 – nov/2025",
+            bullets: [
+              "Evolução da plataforma de vendas (E-commerce) com Next.js, React e TypeScript, melhorando a performance do site em 300% (Google PageSpeed)",
+              "Desenvolvimento de aplicativos nativos para e-commerce (Nuvemshop e Shopify) com JavaScript e React, gerando economia recorrente superior a R$ 2.000,00 mensais",
+              "Criação do zero de uma plataforma de gestão de chamados com Python e Django, com arquitetura modular e clean code",
+              "Desenvolvimento de dashboards centralizados com gestão de acessos para segurança de dados internos",
+              "Gerenciamento de infraestrutura e deploys com Docker, Kubernetes, Render, Vercel e GitHub Actions (CI/CD)",
+            ],
+          },
+        ],
+      },
+      {
+        title: "Analista de Sistemas - Estágio",
         company: "Centi",
         period: "jan/2025 – jun/2025",
         bullets: [
-          "Levantamento e analise de requisitos",
-          "Suporte tecnico",
-          "participação em rotinas ageis",
+          "Vivência técnica em aplicação web de grande porte (mais de 20.000 usuários ativos) em ambiente .NET Core",
+          "Levantamento detalhado e análise de requisitos, atuando como ponte entre as necessidades do negócio e a equipe de desenvolvimento",
+          "Suporte técnico aos usuários finais, investigando causa raiz de incidentes e resolução ágil de problemas",
+          "Participação ativa nas cerimônias ágeis (Scrum) – dailies, planning e reviews",
+          "Contribuição na documentação de funcionalidades e validação de entregas",
         ],
       },
     ],
@@ -68,13 +93,6 @@ export default {
         image: "/icons/canada.png",
       },
       {
-        title: "From-TikTok",
-        desc: "web App para ecommerce com next.js , react e supabase, com foco em usabilidade e performance para o usuario Mobile First",
-        github: "",
-        demo: "https://from-tiktok.pangeia96.com.br/",
-        image: "/icons/embaixadoras.png",
-      },
-        {
         title: "Rastreamento PNG",
         desc: "Rastreamento de pedidos de entrega com integração com APIs para consulta de status e rastreamento de entregas",
         github: "",
@@ -91,8 +109,8 @@ export default {
       {
         title:"Monitoramento de desempenho de marca",
         desc: "Projeto com foco em monitorar desempenho de influencers e visibilidade da marca nas redes sociais, fiz desde a parte de engenharia de dados criação e automação de ETL via databricks e analise de sentimentos e criação do dashboard via streamlit com Python e pandas.",
-        github: "",
-        demo: "https://pangeia96.streamlit.app/",
+        github: "https://github.com/Pangeia96/dashSocial",
+        demo: "",
         image: "/icons/dashsocial.png",
       }
      

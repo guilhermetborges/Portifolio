@@ -7,32 +7,30 @@ export default function Education() {
   const { t } = useLang();
 
   return (
-    <section id="education" className="py-15 bg-neutral-900/50">
+    <section id="education" className="py-10 bg-neutral-900/30">
       <SectionTitle title={t.education.title} />
 
-      <div className="section mt-6 space-y-8">
+      <div className="section mt-10 space-y-8">
         {t.education.items.map((edu: any, idx: number) => (
-          <div key={idx} className="relative pl-6 border-l border-brand-primary/40">
-            {/* bolinha da linha do tempo */}
-            <span className="absolute left-[-7px] top-1 w-3 h-4 bg-brand-primary rounded-full" />
+          <div key={idx} className="relative pl-8 border-l-2 border-brand-primary/30 hover:border-brand-primary/60 transition-colors duration-300">
+            <span className="absolute left-[-7px] top-2 w-3.5 h-3.5 bg-brand-primary rounded-full shadow-glow" />
 
-            {/* título e instituição */}
-            <h4 className="text-lg font-semibold">
-              {edu.title} - <span className="text-brand-primary">{edu.place}</span>
+            <h4 className="text-lg font-semibold text-white">
+              {edu.title}
             </h4>
+            <p className="text-brand-primary font-medium text-sm">{edu.place}</p>
+            <p className="text-sm text-gray-500 mt-1">{edu.period}</p>
 
-            {/* período */}
-            <p className="text-sm text-white">{edu.period}</p>
-
-            {/* bullets (se existirem) */}
             {edu.bullets && (
-              <ul className="list-disc list-inside mt-6 text-white space-y-1">
+              <ul className="mt-3 space-y-2">
                 {edu.bullets.map((b: string, i: number) => (
-                  <li key={i}>{b}</li>
+                  <li key={i} className="flex items-start gap-2 text-gray-300 text-sm">
+                    <span className="text-brand-primary mt-1.5 w-1.5 h-1.5 rounded-full bg-brand-primary flex-shrink-0" />
+                    {b}
+                  </li>
                 ))}
               </ul>
             )}
-            <br />
           </div>
         ))}
       </div>

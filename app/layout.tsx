@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-export const metadata: Metadata={title:"Portfólio",description:"Portfolio bilingue"};
+export const metadata: Metadata={title:"Guilherme Teodoro | Data Engineer",description:"Portfolio bilingue - Guilherme Teodoro, Data Engineer & Backend Engineer"};
 export default function RootLayout({children}:{children:React.ReactNode}){
  return(
  <html lang="pt">
-    <body>{children}</body>
+    <body className="antialiased">{children}</body>
 </html>);
 }

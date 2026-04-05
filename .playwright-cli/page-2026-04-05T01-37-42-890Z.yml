@@ -1,0 +1,176 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - text: GT
+      - navigation [ref=e4]:
+        - link "Sobre" [ref=e5] [cursor=pointer]:
+          - /url: "#about"
+        - link "Habilidades" [ref=e6] [cursor=pointer]:
+          - /url: "#skills"
+        - link "Educação" [ref=e7] [cursor=pointer]:
+          - /url: "#education"
+        - link "Experiência" [ref=e8] [cursor=pointer]:
+          - /url: "#experience"
+        - link "Projetos" [ref=e9] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Contato" [ref=e10] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e11]:
+        - button "PT" [ref=e12]
+        - button "EN" [ref=e13]
+  - generic [ref=e14]:
+    - img "Guilherme Teodoro" [ref=e17]
+    - heading "Oi, eu sou Guilherme Teodoro" [level=1] [ref=e18]
+    - heading "Desenvolvedor Backend | Crawler Engineer" [level=2] [ref=e19]
+    - paragraph [ref=e20]: Atualmente atuo como desenvolvedor backend e crawler, com experiência forte em engenharia de dados e automação. Trabalho com crawlers de alta performance, engenharia reversa, integrações e pipelines escaláveis, sempre com foco em performance, confiabilidade e arquitetura limpa.
+  - generic [ref=e21]:
+    - heading "Skills" [level=3] [ref=e23]: Skills
+    - generic [ref=e25]:
+      - button "Backend" [ref=e26]
+      - button "Data Engineering" [ref=e27]
+      - button "Frontend" [ref=e28]
+      - button "DevOps & Software" [ref=e29]
+      - button "Database" [ref=e30]
+      - button "AI & Performance" [ref=e31]
+      - button "Others" [ref=e32]
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - img "Python" [ref=e36]
+        - text: Python
+      - generic [ref=e37]:
+        - img "Django" [ref=e39]
+        - text: Django
+      - generic [ref=e40]:
+        - img "DRF" [ref=e42]
+        - text: DRF
+      - generic [ref=e43]:
+        - img "FastAPI" [ref=e45]
+        - text: FastAPI
+      - generic [ref=e46]:
+        - img "TypeScript" [ref=e48]
+        - text: TypeScript
+      - generic [ref=e49]:
+        - img "Next.js" [ref=e51]
+        - text: Next.js
+      - generic [ref=e52]:
+        - img "JavaScript" [ref=e54]
+        - text: JavaScript
+      - generic [ref=e55]:
+        - img "C#" [ref=e57]
+        - text: C#
+      - generic [ref=e58]:
+        - img ".NET" [ref=e60]
+        - text: .NET
+      - generic [ref=e61]:
+        - img "Golang" [ref=e63]
+        - text: Golang
+      - generic [ref=e64]:
+        - img "REST APIs" [ref=e66]
+        - text: REST APIs
+  - generic [ref=e67]:
+    - heading "Educação" [level=3] [ref=e69]: Educação
+    - generic [ref=e71]:
+      - heading "Instituto Federal de Goiás" [level=4] [ref=e72]
+      - paragraph [ref=e73]: Bacharelado em Sistemas de Informação
+      - paragraph [ref=e74]: 2024 – 2027
+      - list [ref=e75]:
+        - listitem [ref=e76]: Ênfase em algoritmos, estruturas de dados, POO, redes e Java.
+        - listitem [ref=e77]: Participação ativa em hackathons, eventos e palestras.
+        - listitem [ref=e78]: Participação em projeto de pesquisa de inteligência artificial para indústria pecuarista com modelagem de dados.
+  - generic [ref=e79]:
+    - heading "Experiência" [level=3] [ref=e81]: Experiência
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - heading "Data Lawyer" [level=4] [ref=e84]
+        - paragraph [ref=e85]: Desenvolvedor Backend / Crawler
+        - paragraph [ref=e86]: mar/2026 – o momento
+        - list [ref=e87]:
+          - listitem [ref=e88]: Atuação com desenvolvimento backend usando Python, Airflow, C#, AWS e Golang
+          - listitem [ref=e89]: Construção e manutenção de crawlers de alta performance com foco em escala, estabilidade e confiabilidade
+          - listitem [ref=e90]: Trabalho com engenharia reversa para extração e interpretação de dados em diferentes fontes
+          - listitem [ref=e91]: Desenvolvimento de robôs de automação de alta performance para coleta e processamento de dados
+      - generic [ref=e92]:
+        - heading "Pangeia 96" [level=4] [ref=e93]
+        - paragraph [ref=e94]: Atuação em Engenharia de Dados e Desenvolvimento Full Stack
+        - paragraph [ref=e95]: jul/2025 – mar/2026
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - paragraph [ref=e99]: Engenheiro de Dados
+              - paragraph [ref=e100]: nov/2025 – mar/2026
+            - list [ref=e101]:
+              - listitem [ref=e102]: Criação de pipelines de processamento e transformação com Databricks, PySpark e Python, estruturando dados em camadas (Bronze → Silver → Gold)
+              - listitem [ref=e103]: Desenvolvimento de pipeline ETL completo para integrar a API da Nuvemshop ao Data Warehouse, otimizando estrutura analítica em PostgreSQL
+              - listitem [ref=e104]: Estruturação da arquitetura de dados com PostgreSQL e pipelines de atualização via webhooks
+              - listitem [ref=e105]: Automatização de processos operacionais com robôs de webscraping usando Python e Selenium
+              - listitem [ref=e106]: Integração do ecossistema de dados conectando ERPs (Linx Millennium, Tiny, Olist), e-commerce (Nuvemshop) e APIs externas (Mercado Pago, Meta, RD Station)
+          - generic [ref=e107]:
+            - generic [ref=e108]:
+              - paragraph [ref=e109]: Desenvolvedor Full Stack
+              - paragraph [ref=e110]: jul/2025 – nov/2025
+            - list [ref=e111]:
+              - listitem [ref=e112]: Evolução da plataforma de vendas (E-commerce) com Next.js, React e TypeScript, melhorando a performance do site em 300% (Google PageSpeed)
+              - listitem [ref=e113]: Desenvolvimento de aplicativos nativos para e-commerce (Nuvemshop e Shopify) com JavaScript e React, gerando economia recorrente superior a R$ 2.000,00 mensais
+              - listitem [ref=e114]: Criação do zero de uma plataforma de gestão de chamados com Python e Django, com arquitetura modular e clean code
+              - listitem [ref=e115]: Desenvolvimento de dashboards centralizados com gestão de acessos para segurança de dados internos
+              - listitem [ref=e116]: Gerenciamento de infraestrutura e deploys com Docker, Kubernetes, Render, Vercel e GitHub Actions (CI/CD)
+      - generic [ref=e117]:
+        - heading "Centi" [level=4] [ref=e118]
+        - paragraph [ref=e119]: Analista de Sistemas - Estágio
+        - paragraph [ref=e120]: jan/2025 – jun/2025
+        - list [ref=e121]:
+          - listitem [ref=e122]: Vivência técnica em aplicação web de grande porte (mais de 20.000 usuários ativos) em ambiente .NET Core
+          - listitem [ref=e123]: Levantamento detalhado e análise de requisitos, atuando como ponte entre as necessidades do negócio e a equipe de desenvolvimento
+          - listitem [ref=e124]: Suporte técnico aos usuários finais, investigando causa raiz de incidentes e resolução ágil de problemas
+          - listitem [ref=e125]: Participação ativa nas cerimônias ágeis (Scrum) – dailies, planning e reviews
+          - listitem [ref=e126]: Contribuição na documentação de funcionalidades e validação de entregas
+  - generic [ref=e127]:
+    - generic [ref=e128]:
+      - heading "Projetos" [level=3] [ref=e129]: Projetos
+      - paragraph [ref=e130]: Meus trabalhos recentes
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - img "NewZone" [ref=e133]
+        - heading "NewZone" [level=4] [ref=e134]
+        - paragraph [ref=e135]: website para imigracao em Django com Django templates , tailwindcss e postgreSQL
+        - link "GitHub" [ref=e137] [cursor=pointer]:
+          - /url: https://github.com/guilhermetborges/newZone
+      - generic [ref=e138]:
+        - img "Rastreamento PNG" [ref=e139]
+        - heading "Rastreamento PNG" [level=4] [ref=e140]
+        - paragraph [ref=e141]: Rastreamento de pedidos de entrega com integração com APIs para consulta de status e rastreamento de entregas
+        - link "Demo" [ref=e143] [cursor=pointer]:
+          - /url: https://rastreio.pangeia96.com.br/
+      - generic [ref=e144]:
+        - img "Sistema Pangeia 96" [ref=e145]
+        - heading "Sistema Pangeia 96" [level=4] [ref=e146]
+        - paragraph [ref=e147]: Plataforma interna com Python/Django e PostgreSQL/Supabase
+        - link "Demo" [ref=e149] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7378435890475409409/
+      - generic [ref=e150]:
+        - img "Monitoramento de desempenho de marca" [ref=e151]
+        - heading "Monitoramento de desempenho de marca" [level=4] [ref=e152]
+        - paragraph [ref=e153]: Projeto com foco em monitorar desempenho de influencers e visibilidade da marca nas redes sociais, fiz desde a parte de engenharia de dados criação e automação de ETL via databricks e analise de sentimentos e criação do dashboard via streamlit com Python e pandas.
+        - link "GitHub" [ref=e155] [cursor=pointer]:
+          - /url: https://github.com/Pangeia96/dashSocial
+  - generic [ref=e156]:
+    - generic [ref=e157]:
+      - heading "Contato" [level=3] [ref=e158]: Contato
+      - paragraph [ref=e159]: Entre em contato comigo
+    - generic [ref=e160]:
+      - link "@ 01borgesguilherme@gmail.com" [ref=e161] [cursor=pointer]:
+        - /url: mailto:01borgesguilherme@gmail.com
+        - generic [ref=e162]: "@"
+        - text: 01borgesguilherme@gmail.com
+      - link "LinkedInLinkedIn" [ref=e163] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/guilherme-gtb
+        - img "LinkedIn" [ref=e164]
+        - text: LinkedIn
+      - link "GitHubGitHub" [ref=e165] [cursor=pointer]:
+        - /url: https://github.com/guilhermetborges
+        - img "GitHub" [ref=e166]
+        - text: GitHub
+      - link "CVBaixar CV" [ref=e167] [cursor=pointer]:
+        - /url: /icons/Curriculo_Guilherme_Teodoro.pdf
+        - img "CV" [ref=e168]
+        - text: Baixar CV
