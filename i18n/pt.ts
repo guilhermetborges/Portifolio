@@ -9,7 +9,7 @@ export default {
   },
   hero: {
     title: "Oi, eu sou",
-    subtitle: "Desenvolvedor Backend | Crawler Engineer",
+    subtitle: "desenvolvedor backend | engenheiro de dados",
     summary: "Atualmente atuo como desenvolvedor backend e crawler, com experiência forte em engenharia de dados e automação. Trabalho com crawlers de alta performance, engenharia reversa, integrações e pipelines escaláveis, sempre com foco em performance, confiabilidade e arquitetura limpa.",
   },
   skills: { title: "Skills", subtitle: "" },

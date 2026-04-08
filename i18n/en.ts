@@ -9,7 +9,7 @@ export default {
   },
   hero: {
     title: "Hi, I'm",
-    subtitle: "Backend Developer | Crawler Engineer",
+    subtitle: "software engineer | data engineer",
     summary: "I currently work as a backend developer and crawler engineer, with a strong background in data engineering and automation. I build high-performance crawlers, reverse engineering solutions, integrations, and scalable pipelines focused on performance, reliability, and clean architecture.",
   },
   skills: { title: "Skills", subtitle: "" },
