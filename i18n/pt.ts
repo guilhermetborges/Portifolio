@@ -86,6 +86,13 @@ export default {
     subtitle: "Meus trabalhos recentes",
     items: [
       {
+        title: "Deboxe (Pagina de Conversao)",
+        desc: "Landing page de conversao da Deboxe X Citrine com foco em performance, experiencia e CTA.",
+        github: "https://github.com/guilhermetborges/deboxe_LP",
+        demo: "https://deboxe-citrine-lp.vercel.app",
+        image: "/icons/deboxe-lp.jpeg",
+      },
+      {
         title: "NewZone",
         desc: "website para imigracao em Django com Django templates , tailwindcss e postgreSQL",
         github: "https://github.com/guilhermetborges/newZone",

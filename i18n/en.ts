@@ -86,6 +86,13 @@ export default {
     subtitle: "My recent work",
     items: [
       {
+        title: "Deboxe (Conversion Page)",
+        desc: "Deboxe X Citrine conversion landing page focused on performance, experience, and strong CTAs.",
+        github: "https://github.com/guilhermetborges/deboxe_LP",
+        demo: "https://deboxe-citrine-lp.vercel.app",
+        image: "/icons/deboxe-lp.jpeg",
+      },
+      {
         title: "NewZone",
         desc: "Immigration website built with Django, Django templates, TailwindCSS, and PostgreSQL",
         github: "https://github.com/guilhermetborges/newZone",
