@@ -17,6 +17,7 @@ pnpm-debug.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.opencode/
 
 # Sistema
 .DS_Store
