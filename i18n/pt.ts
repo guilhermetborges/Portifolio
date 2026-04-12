@@ -90,7 +90,7 @@ export default {
         desc: "Landing page de conversao da Deboxe X Citrine com foco em performance, experiencia e CTA.",
         github: "https://github.com/guilhermetborges/deboxe_LP",
         demo: "https://deboxe-citrine-lp.vercel.app",
-        image: "/icons/deboxe-lp.jpeg",
+        image: "/Captura de tela de 2026-04-11 19-28-30.png",
       },
       {
         title: "NewZone",
