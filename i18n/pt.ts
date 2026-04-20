@@ -119,8 +119,14 @@ export default {
         github: "https://github.com/Pangeia96/dashSocial",
         demo: "",
         image: "/icons/dashsocial.png",
+      },
+      {
+        title: "Paradise Partners",
+        desc: "SaaS platform connecting influencers and brands with campaigns, projects, and payments. Built in partnership with Pangeia 96 Tech.",
+        github: "",
+        demo: "https://paradise-connect-cx2nf981x-pangeia96-32ec5817.vercel.app/",
+        image: "/icons/paradise-partners.png",
       }
-     
     ],
   },
   contact: { title: "Contato", subtitle: "Entre em contato comigo" },
