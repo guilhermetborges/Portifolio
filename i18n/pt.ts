@@ -86,6 +86,27 @@ export default {
     subtitle: "Meus trabalhos recentes",
     items: [
       {
+        title: "Paradise Partners",
+        desc: "Plataforma SaaS que conecta influenciadores e marcas para gerenciar campanhas, projetos e pagamentos. Desenvolvida em parceria com a Pangeia 96 Tech.",
+        github: "",
+        demo: "https://paradise-connect.vercel.app/empresas",
+        image: "/icons/paradise-partners.png",
+      },
+      {
+        title:"Monitoramento de desempenho de marca",
+        desc: "Projeto com foco em monitorar desempenho de influencers e visibilidade da marca nas redes sociais, fiz desde a parte de engenharia de dados criação e automação de ETL via databricks e analise de sentimentos e criação do dashboard via streamlit com Python e pandas.",
+        github: "https://github.com/Pangeia96/dashSocial",
+        demo: "",
+        image: "/icons/dashsocial.png",
+      },
+      {
+        title: "Sistema Pangeia 96",
+        desc: "Plataforma interna com Python/Django e PostgreSQL/Supabase ",
+        github: "",
+        demo: "https://www.linkedin.com/feed/update/urn:li:activity:7378435890475409409/",
+        image: "/icons/pangeia.png",
+      },
+      {
         title: "Deboxe (Pagina de Conversao)",
         desc: "Landing page de conversao da Deboxe X Citrine com foco em performance, experiencia e CTA.",
         github: "https://github.com/guilhermetborges/deboxe_LP",
@@ -99,34 +120,6 @@ export default {
         demo: "",
         image: "/icons/canada.png",
       },
-      {
-        title: "Rastreamento PNG",
-        desc: "Rastreamento de pedidos de entrega com integração com APIs para consulta de status e rastreamento de entregas",
-        github: "",
-        demo: "https://rastreio.pangeia96.com.br/",
-        image: "/icons/rastreamento.png",
-      },
-      {
-        title: "Sistema Pangeia 96",
-        desc: "Plataforma interna com Python/Django e PostgreSQL/Supabase ",
-        github: "",
-        demo: "https://www.linkedin.com/feed/update/urn:li:activity:7378435890475409409/",
-        image: "/icons/pangeia.png",
-      },
-      {
-        title:"Monitoramento de desempenho de marca",
-        desc: "Projeto com foco em monitorar desempenho de influencers e visibilidade da marca nas redes sociais, fiz desde a parte de engenharia de dados criação e automação de ETL via databricks e analise de sentimentos e criação do dashboard via streamlit com Python e pandas.",
-        github: "https://github.com/Pangeia96/dashSocial",
-        demo: "",
-        image: "/icons/dashsocial.png",
-      },
-      {
-        title: "Paradise Partners",
-        desc: "SaaS platform connecting influencers and brands with campaigns, projects, and payments. Built in partnership with Pangeia 96 Tech.",
-        github: "",
-        demo: "https://paradise-connect-cx2nf981x-pangeia96-32ec5817.vercel.app/",
-        image: "/icons/paradise-partners.png",
-      }
     ],
   },
   contact: { title: "Contato", subtitle: "Entre em contato comigo" },
